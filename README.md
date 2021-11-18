@@ -1,6 +1,17 @@
 # Object-Detection
 An application that receives a user's target object and image and returns a processed image with the user's object higlighted if present.
 
+## Project Scope
+
+### Statement of Work
+Develop an application that identifies a requested object within a user's uploaded image.
+
+### Deliverables
+* A python script that makes an api call to an image dataset using requested object
+* A python script that performs general image processing to images
+* A python script that trains an image classification model
+* A web application that receives user image and object and returns an annotated image with objects circled
+
 ## Image Database
 * Look into Image Datasets , preferably API's that can be called to provide training images
 
