@@ -12,8 +12,9 @@ Develop an application that identifies a requested object within a user's upload
 * A python script that trains an image classification model
 * A web application that receives user image and object and returns an annotated image with objects circled
 
-## Image Database
-* Look into Image Datasets , preferably API's that can be called to provide training images
+## Image Dataset
+* [Image Net](https://image-net.org/about.php) Provides a dataset of images representing the synsets (concepts) represented in the WordNet heirarchy
+* [Coco](https://cocodataset.org/#download) A dataset of common objects with its own api to help parse data
 
 ## Storage
 * Determine the best way to store a dataset of image files for computer vision
