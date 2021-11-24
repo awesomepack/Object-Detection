@@ -17,7 +17,7 @@ Develop an application that identifies a requested object within a user's upload
 * [Coco](https://cocodataset.org/#download) A dataset of common objects with its own api to help parse data
 
 ## Storage
-* Determine the best way to store a dataset of image files for computer vision
+* Use a PostgreSQL instance to store image training data
 
 ## Image pre-processing
 * apply paradigm pre-processing techniques on training data
