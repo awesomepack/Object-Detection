@@ -1,10 +1,7 @@
 # Object-Detection
-An application that receives a user's target object and image and returns a processed image with the user's object higlighted if present.
 
 ## Project Scope
-
-### Statement of Work
-Develop an application that identifies a requested object within a user's uploaded image.
+Historically, object detection algorithms have been trained using iconic images, those with the object in focus, instead of natural images that occur in reality. The result, are object detection algorithms that underperform when the object is amongst clutter and other object types as is typical of nattural images. The COCO dataset aims to solve problems in scene understanding by providing images that can train algorithms to detect non-iconic views, provide contextual reasoning between objects , and pinpoint the object instances in an image and segement them. I will develop an application that recieves a user's image and segments a requested object type using an object-detection algorithm trained using the [Common Objects in Context](https://cocodataset.org/#explore) Dataset.
 
 ### Deliverables
 * A python script that makes an api call to an image dataset using requested object
@@ -13,7 +10,6 @@ Develop an application that identifies a requested object within a user's upload
 * A web application that receives user image and object and returns an annotated image with objects circled
 
 ## Image Dataset
-* [Image Net](https://image-net.org/about.php) Provides a dataset of images representing the synsets (concepts) represented in the WordNet heirarchy
 * [Coco](https://cocodataset.org/#download) A dataset of common objects with its own api to help parse data
 
 ## Storage
